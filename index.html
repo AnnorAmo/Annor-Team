@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shave Masters Grooming</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+    <div class="logo">SHAVE MASTERS</div>
+    
+    <nav class="nav-links-desktop">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#location">Location</a>
+    </nav>
+    <button class="btn btn-gold btn-nav-desktop"><a href="#book">Book Now</a></button>
+
+    <div class="hamburger" id="hamburgerBtn">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+</header>
+
+<div class="mobile-menu-overlay" id="mobileMenu">
+    <nav class="nav-links-mobile">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#location">Location</a>
+        <a href="#book" class="btn btn-gold btn-block btn-nav-mobile">Book Now</a>
+    </nav>
+</div>
+
+    <section  id="home" class="hero">
+        <div class="hero-content">
+            <span class="sub-tagline">EXCELLENCE IN GROOMING</span>
+            <h1>SHAVE MASTERS<br>GROOMING</h1>
+            <p>Premium barbering salon in Takoradi offering professional grooming services in an atmosphere of unparalleled sophistication.</p>
+            <div class="cta-buttons">
+                <button class="btn btn-gold">Book Appointment</button>
+                <a href="tel:+233547035001" class="btn btn-outline btn-call">Call Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="experience-section">
+        <div class="experience-container">
+            <div class="experience-text">
+                <h2>Experience Luxury</h2>
+                <p>At Shave Masters, we don't just offer haircuts; we provide a sanctuary for the modern gentleman. Located in the heart of Takoradi, our master barbers combine traditional techniques with contemporary styles to ensure you leave looking and feeling your absolute best.</p>
+                
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon"></div>
+                        <h3>FREE DSTV</h3>
+                        <p>Live sports and news</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"></div>
+                        <h3>FREE PS5</h3>
+                        <p>Gaming lounge access</p>
+                    </div>
+                </div>
+            </div>
+            <div class="experience-image">
+                <img src="images/5488830791847531.jpg" alt="Barber cutting hair in a luxury shop">
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services-section">
+        <span class="section-tagline">OUR EXPERTISE</span>
+        <h2>PREMIUM SERVICES</h2>
+        
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-img-wrapper">
+                    <img src="images/5488830791847531.jpg" alt="Haircuts">
+                </div>
+                <div class="service-info">
+                    <h3>Haircuts</h3>
+                    <p>Precision fading and classic tailoring by master barbers.</p>
+                    <div class="price">GHS 50+</div>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="service-img-wrapper">
+                    <img src="images/605171268725933679.jpg" alt="Shaving">
+                </div>
+                <div class="service-info">
+                    <h3>Shaving</h3>
+                    <p>Traditional hot towel shaves with straight razor precision.</p>
+                    <div class="price">GHS 40+</div>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="service-img-wrapper">
+                    <img src="images/60 Fascinating Fade Haircuts on Handsome Black Men! - Coils and Glory.jpg" alt="Colouring">
+                </div>
+                <div class="service-info">
+                    <h3>Colouring</h3>
+                    <p>Subtle grey blending or bold transformations.</p>
+                    <div class="price">GHS 120+</div>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="service-img-wrapper">
+                    <img src="images/41 Handsome Barrel Roll Locs Men Hair Ideas.jpg" alt="Extensions">
+                </div>
+                <div class="service-info">
+                    <h3>Dreadlocks / Twists</h3>
+                    <p>Premium hair integration for added volume and style.</p>
+                    <div class="price">GHS 200+</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Gallery -->
+    <section id="gallery" class="gallery-section">
+    <div class="section-title-wrapper">
+        <h2 class="section-title">OUR WORK</h2>
+        <div class="gold-divider"></div>
+        <p class="section-subtitle">A glimpse of luxury grooming and precision cuts executed by our master barbers.</p>
+    </div>
+
+    <div class="gallery-grid">
+        <div class="gallery-item" onclick="openLightbox('https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&q=80&w=600')">
+            <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&q=80&w=600" alt="Precision Fade">
+            <div class="gallery-overlay">
+                <span>View Style </span>
+            </div>
+        </div>
+
+        <div class="gallery-item" onclick="openLightbox('https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&q=80&w=600')">
+            <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&q=80&w=600" alt="Hot Towel Shave">
+            <div class="gallery-overlay">
+                <span>View Style </span>
+            </div>
+        </div>
+
+
+        <div class="gallery-item" onclick="openLightbox('https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&q=80&w=600')">
+            <img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&q=80&w=600" alt="Beard Sculpting">
+            <div class="gallery-overlay">
+                <span>View Style </span>
+            </div>
+        </div>
+
+
+        <div class="gallery-item" onclick="openLightbox('https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&q=80&w=600')">
+            <img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&q=80&w=600" alt="Beard Sculpting">
+            <div class="gallery-overlay">
+                <span>View Style </span>
+            </div>
+        </div>
+
+         
+    </div>
+</section>
+
+<div id="galleryLightbox" class="lightbox" onclick="closeLightbox()">
+    <span class="lightbox-close">&times;</span>
+    <img class="lightbox-content" id="lightboxImg">
+</div>
+
+    <section id="reviews" class="testimonials-section">
+        <h2>CLIENT TESTIMONIALS</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="stars">★★★★★</div>
+                <p class="review-text">"Best fade in Takoradi. The attention to detail is remarkable, and the atmosphere feels like a high-end club. Highly recommend!"</p>
+                <div class="reviewer-info">
+                    <h4>Kwame Mensah</h4>
+                    <span>Loyal Customer</span>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="stars">★★★★★</div>
+                <p class="review-text">"The hot towel shave is a game-changer. I felt like a king from start to finish. Professional and highly skilled team."</p>
+                <div class="reviewer-info">
+                    <h4>Michael Asare</h4>
+                    <span>Regular Client</span>
+                </div>
+            </div>
+            
+            <div class="testimonial-card">
+                <div class="stars">★★★★★</div>
+                <p class="review-text">"Love the amenities! Playing PS5 while waiting makes the experience even better. Definitely the best spot in the city."</p>
+                <div class="reviewer-info">
+                    <h4>Elena Anan</h4>
+                    <span>Business Executive</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="location" class="sanctuary-section">
+        <div class="sanctuary-container">
+            <div class="sanctuary-info">
+                <h2>OUR SANCTUARY</h2>
+                
+                <div class="info-block">
+                    <span class="info-icon"><i class="fa-solid fa-location gold-icon"></i></span>
+                    <div>
+                        <h3>ADDRESS</h3>
+                        <p>Takoradi Airport Residential Area, Takoradi, Ghana</p>
+                    </div>
+                </div>
+
+                <div class="info-block">
+                    <span class="info-icon"><i class="fa-solid fa-phone gold-icon"></i></span>
+                    <div>
+                        <h3>PHONE</h3>
+                        <p>+233 54 703 5001</p>
+                    </div>
+                </div>
+
+                <div class="info-block">
+                    <span class="info-icon"><i class="fa-solid fa-clock gold-icon"></i></span>
+                    <div>
+                        <h3>HOURS</h3>
+                        <p>Mon - Sat: 9:00 AM - 9:00 PM<br>Sunday: Closed</p>
+                    </div>
+                </div>
+
+                <div class="info-block">
+                    <span class="info-icon"><i class="fa-solid fa-star gold-icon"></i></span>
+                    <div>
+                        <h3>RATING</h3>
+                        <p>4.9 Stars on Google Reviews</p>
+                    </div>
+                </div>
+            </div>
+            
+           <div class="sanctuary-map">
+    <div class="sanctuary-map">
+    <iframe 
+        src="https://maps.google.com/maps?q=Airport%20Residential%20Area,%20Takoradi,%20Ghana&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+        width="100%" 
+        height="450" 
+        style="border:1px solid rgba(212, 175, 55, 0.2);" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+</div>
+</div>
+        </div>
+    </section>
+
+    <section id="book" class="booking-section">
+        <div class="booking-box">
+            <h2>SECURE YOUR APPOINTMENT</h2>
+            <p class="booking-subtitle">Select your preferred time and service below</p>
+            
+           <form id="appointmentForm" action="https://formspree.io/f/xjgzogkg" method="POST" class="appointment-form">
+    <div class="form-row">
+        <div class="form-group">
+            <label for="fullName">FULL NAME</label>
+            <input type="text" id="fullName" name="name" placeholder="John Doe" required>
+        </div>
+        <div class="form-group">
+            <label for="phone">PHONE NUMBER</label>
+            <input type="tel" id="phone" name="phone" placeholder="+233..." required>
+        </div>
+    </div>
+
+    <div class="form-row">
+        <div class="form-group">
+            <label for="date">APPOINTMENT DATE</label>
+            <input type="date" id="date" name="date" required>
+        </div>
+        <div class="form-group">
+            <label for="service">SERVICE TYPE</label>
+            <select id="service" name="service" required>
+                <option value="" disabled selected>Please select —</option>
+                <option value="haircut">Haircut (GHS 50+)</option>
+                <option value="shave">Shaving (GHS 40+)</option>
+                <option value="colouring">Colouring (GHS 120+)</option>
+                <option value="extensions">Extensions (GHS 200+)</option>
+            </select>
+        </div>
+    </div>
+
+    <button type="submit" class="btn btn-gold btn-block">Book Now</button>
+</form>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="footer-left">
+            <h3 class="footer-logo">SHAVE MASTERS</h3>
+            <p class="copyright">© 2026 SHAVE MASTERS GROOMING. ALL RIGHTS RESERVED.</p>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+<div id="successModal" class="success-modal">
+    <div class="success-content">
+        <div class="success-icon">✨</div>
+        <h2>BOOKED SUCCESSFULLY</h2>
+        <div class="gold-divider"></div>
+        <p>Thank you for choosing Shave Masters.</p>
+        <p class="success-details">Your premium grooming experience has been scheduled. We have sent a confirmation details text to your phone.</p>
+        <button id="closeSuccessBtn" class="btn btn-gold">Back to Site</button>
+    </div>
+</div>
+</html>
